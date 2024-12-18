@@ -1,0 +1,16 @@
+{
+  "name": "shopify-2.0-skeleton-theme",
+  "version": "1.0.0",
+  "description": "This is a starter theme structure for devs wanting to code Shopify 2.0 themes from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw": "npx tailwindcss -i ./tailwind.styles.css -o ./assets/theme.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
